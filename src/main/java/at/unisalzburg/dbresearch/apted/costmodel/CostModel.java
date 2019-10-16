@@ -38,6 +38,8 @@ import at.unisalzburg.dbresearch.apted.node.Node;
  *
  * @param <D> type of node data on which the cost model is defined.
  */
+
+ 
 public interface CostModel<D> {
 
   /**
@@ -65,3 +67,4 @@ public interface CostModel<D> {
    */
   public float ren(Node<D> n1, Node<D> n2);
 }
+
